@@ -1,6 +1,8 @@
 package clase2;
 import javax.swing.*;
 
+//USO DEL BUCLE FOR Y CONVERSION NUMEROS NEGATIVOS A POSITIVOS
+
 public class Ej2 {
 
      public static void main(String[] args) {
