@@ -10,12 +10,12 @@ public class Funciones {
         int numeroB;
         int resultado;
         
-        numeroA = Integer.parseInt (JOptionPane.showInputDialog("Ingrese el primer numero a sumasr"));
+        numeroA = Integer.parseInt (JOptionPane.showInputDialog("Ingrese el primer numero a sumar"));
         numeroB = Integer.parseInt (JOptionPane.showInputDialog("Ingrese el segundo numero a sumar"));
         
         resultado = sumar(numeroA, numeroB);
         
-        JOptionPane.showMessageDialog(null, "El resultado de " + numeroA + " + " + numeroB + "es: " + resultado);
+        JOptionPane.showMessageDialog(null, "El resultado de " + numeroA + " + " + numeroB + "= " + resultado);
         
     }
 
