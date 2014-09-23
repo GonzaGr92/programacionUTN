@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package guiapracticaprog2;
+package ejercicio2;
 
 /**
  *
@@ -85,10 +85,6 @@ public class MainEj2 {
         System.out.println(ej2c.cadena);
         System.out.println(ej2c.caracter);
         System.out.println(ej2c.numero);
-        
-        
-        
-        
-        
+         
     }
 }

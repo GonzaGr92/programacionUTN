@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package guiapracticaprog2;
+package ejercicio1;
 
 import javax.swing.JOptionPane;
 
@@ -18,14 +18,14 @@ public class Cuadratica {
      */
     public static void main(String[] args) {
         int menu;
-        int continuar= 0;
+        int continuar = 0;
         double a;
         double b;
         double c;
         double discriminante;
         double x1;
         double x2;
-        
+
         do {
             menu = Integer.parseInt(JOptionPane.showInputDialog("Elija una opcion"
                     + "\n1.  Calcular las raices de una ecuacion cuadratica"
@@ -56,12 +56,12 @@ public class Cuadratica {
                         JOptionPane.showMessageDialog(null, "La ecuacion no posee raices reales");
                     }
                 }
-                
-            continuar = Integer.parseInt(JOptionPane.showInputDialog("Desea volver a calcular una raiz? "
-                    + "\n1.  Si"
-                    + "\n2.  No"));
+
+                continuar = Integer.parseInt(JOptionPane.showInputDialog("Desea volver a calcular una raiz? "
+                        + "\n1.  Si"
+                        + "\n2.  No"));
             }
-        } while ((continuar != 2) && (menu!=2));
+        } while ((continuar != 2) && (menu != 2));
     }
 
 }

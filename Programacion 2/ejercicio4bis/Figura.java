@@ -1,0 +1,19 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package ejercicio4bis;
+
+/**
+ *
+ * @author gonzalo
+ */
+public abstract class Figura {
+    protected float espesor;
+    public static final float precio = 5.35F;
+    public abstract double superficie ();
+    public abstract double perimetro ();
+    public abstract float costo ();
+}
