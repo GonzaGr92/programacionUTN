@@ -12,3 +12,6 @@ netbeans desde la pagina oficial, luego de instalar JDK
 
 Cualquier consulta pueden enviar un mail 
 gonza.gr92@gmail.com
+
+Hola Agus
+
